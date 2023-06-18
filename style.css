@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'Laila-Bold';
+  src: url(Fonts/Laila-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Quicksand';
+  src: url(Fonts/Quicksand-Light.ttf);
+}
+
+body{
+  padding: 0;
+  margin: 50px 120px;
+  background-color: #ffffff;
+  display: block;
+  align-items: center;
+  justify-content: left;
+}
+
+h2{
+  font-family: 'Laila-Bold', sans-serif;
+  color: #1F1F1F;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+p{
+  font-family: 'Quicksand', sans-serif;
+  color: #1F1F1F;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+}
+
+li{
+  font-family: 'Quicksand', sans-serif;
+  color: #1F1F1F;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.left-container {
+  flex: 1;
+}
+
+.left-container .under {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-container {
+  display: flex;
+  align-items: self-end;
+  margin-right: 430px; /* Add some margin to create space between the left and right sections */
+}
+
+.right-container img {
+  width: 75px;
+  height: auto;
+  margin-right: 30px; /* Add some spacing between the image and the text */
+  object-fit: contain;
+}
